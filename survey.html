@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+
+<body>
+
+<h1>Student Survey</h1>
+
+<form>
+
+<!-- Dropdown Select -->
+<label for="course">Choose Course:</label>
+<select id="course" name="course">
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="js">JavaScript</option>
+</select>
+
+<br><br>
+
+<!-- Radio Buttons (Choose ONE) -->
+<p>Learning Level:</p>
+
+<input type="radio" id="beginner" name="level" value="beginner">
+<label for="beginner">Beginner</label>
+
+<br>
+
+<input type="radio" id="intermediate" name="level" value="intermediate">
+<label for="intermediate">Intermediate</label>
+
+<br>
+
+<input type="radio" id="advanced" name="level" value="advanced">
+<label for="advanced">Advanced</label>
+
+<br><br>
+
+<!-- Textarea -->
+<label for="message">Your Feedback:</label>
+<br>
+<textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+</form>
+
+</body>
+</html>
